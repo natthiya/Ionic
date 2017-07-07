@@ -1,0 +1,67 @@
+<ion-view>
+  <ion-nav-bar class="bar bar-dark" >
+    <!-- start top bar -->
+    <ion-nav-title class="title">
+       เขียนบทความ
+    </ion-nav-title>
+  </ion-nav-bar>
+  <!-- start top bar -->
+  <div class="tabs-striped tabs-top tabs-background-assertive tabs-color-light">
+    <div class="tabs">
+      <a class="tab-item " ng-click="btnhome()">
+        <i class="icon ion-ios-world-outline"></i>
+        ทามไลน์
+      </a>
+      <a class="tab-item"  ng-click="btnsearch()">
+        <i class="icon ion-ios-search-strong" ></i>
+        ค้นหา
+      </a>
+      <a class="tab-item active "  ng-click="btncompose()">
+        <i class="icon ion-ios-compose-outline"></i>
+        เขียนบทความ
+      </a>
+      <a class="tab-item"  ng-click="btnlist()">
+        <i class="icon ion-ios-albums-outline"></i>
+        รายการ
+      </a>
+      <a class="tab-item"  ng-click="btnsetting()">
+        <i class="icon ion-ios-settings"></i>
+        บัญชี
+      </a>
+    </div>
+  </div>
+  <!-- end top bar -->
+  <ion-content style="margin-top: 12%">
+
+    <!-- start top content 1 -->
+    <div class="list">
+    <label class="item item-input item-floating-label">
+      <span class="input-label">หัวข้อบทความ</span>
+      <input type="text" style="font-size: 15px" placeholder="หัวข้อบทความ">
+    </label>
+    <label class="item item-input item-floating-label">
+      <span class="input-label">คำฮธิบายบทความ</span>
+      <input type="text" placeholder="คำฮธิบายบทความ">
+    </label>
+    <label class="item item-input item-floating-label">
+      <span class="input-label">Email</span>
+      <input type="text" placeholder="john@suhr.com">
+    </label>
+      <h3 class="center">เลือกภาพ</h3>
+    </div>
+
+    <div class="row">
+      <div class="col col-50">
+        <button class="button button-full button-positive" style="width: 100%" ng-click="btncamara()" ><i class="icon  " >Camara</i></button>
+      </div>
+      <div class="col col-50">
+        <button class="button button-full button-dark" style="width: 100%" ng-click="btnGallery()" ><i class="icon ">Gallrary</i></button>
+      </div>
+
+    </div>
+    <img src="" id="camara" style="width: auto;height: auto">
+
+  </ion-content>
+  <!-- start top footer -->
+
+</ion-view>

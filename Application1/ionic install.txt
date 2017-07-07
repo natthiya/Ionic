@@ -1,0 +1,67 @@
+[ Basic Setup ionic Framework ]
+
+(Step 1) Nodejs
+(Step 2) ionic
+(Step 3) cordova
+(Editor) Use Webstorm 
+
+https://www.jetbrains.com/webstorm
+
+=======================================================================================
+
+[ Window Setup ]
+
+1. Nodejs (version 4.4.3)
+
+
+2. ionic install use CLI (Command Line Interface)
+
+INSTALL : npm install -g ionic
+
+UNINSTALL : npm uninstall -g cordova
+
+
+3. cordova install use CLI (Command Prompt)
+
+INSTALL : npm install -g cordova
+
+UNINSTALL : npm uninstall -g cordova
+
+=======================================================================================
+
+[ Mac OSX Setup ]
+
+1. Nodejs (version 4.4.3)
+
+
+2. ionic install use CLI (Terminal)
+
+INSTALL : sudo npm install -g ionic
+
+UNINSTALL : sudo npm uninstall -g cordova
+
+
+3. cordova install use CLI (Terminal)
+
+INSTALL : sudo npm install -g cordova
+
+UNINSTALL : sudo npm uninstall -g cordova
+
+=======================================================================================
+
+[ Test Command CLI ]
+
+1. node --version
+2. ionic
+3. cordova
+
+
+=======================================================================================
+
+
+Create & RUN First Project
+
+1. cd Desktop
+2. ionic start _YOUR_PROJECT_NAME_ blank
+3. ionic serve
+4. Open Webstorm Edit /www/index.html

@@ -1,0 +1,74 @@
+/* Empty. Add your own CSS if you like */
+
+/* end font */
+@font-face {
+  font-family: 'Trirong', serif;
+  url('fonts.googleapis.com/css?family=Trirong:400,600&subset=thai');
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Trirong', serif;
+}
+
+.bgaqua {
+  /*background: url('../images/bg-login.png') no-repeat center; */
+  background-color: aqua;
+}
+.bgpane{
+  background-color: #F2F2F2;
+}
+
+.bgmain{
+  background-image: url('../img/bgmain.jpg');
+  background-position: 50% 50%;
+}
+
+.bglogin-regis{
+   background-image: url('../img/bglogin-regis.jpg');
+   background-position: 50% 50%;
+ }
+
+.bghome{
+  background-image: url('../img/bglogin-regis.jpg');
+  background-position: 50% 50%;
+}
+
+.width80{
+  width: 80%;
+  /*background-color: #008CBA; */
+}
+.margin5{
+  margin-top: 5%;
+  width: 80%;
+  /*background-color: #f44336;c*/
+}
+
+.center{
+  text-align: center;
+  align-items: center;
+  font-family: 'Athiti', sans-serif;
+}
+
+.shadow{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.iconL{
+  align-items: center;
+}
+
+hr{
+  color: #111111;
+  size: 0.5px;
+}
+
+.circle {
+  width: 140px; /* ความกว้าง */
+  height: 140px; /* ความสูง */
+  background: red; /* สี */
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+  align-items: center;
+}
+

@@ -1,0 +1,37 @@
+<ion-view >
+  <ion-nav-bar class="bar bar-calm">
+    <ion-nav-title class="title ">register
+    </ion-nav-title>
+
+  </ion-nav-bar>
+
+  <ion-content class="bglogin-regis">
+    <ion-list class="margin80 ">
+      <div class="list list-inset">
+        <label class="item item-input ">
+          <span class="input-label">Username</span>
+          <input type="text" placeholder="Naitosdesign" ng-model="data.name">
+        </label>
+
+
+        <label class="item item-input " >
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="admin@email.com" ng-model="data.username">
+        </label>
+
+        <label class="item item-input" >
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="ABC1234" ng-model="data.password">
+        </label>
+
+      </div>
+    </ion-list>
+    <div class="row">
+      <div class="col col-100">
+        <button class="button button-block button-calm" ng-click='btnsubmit()'>ยืนยันการสมัคร</button>
+        <hr style="color: #0d3349">
+        <h5 class="center" ng-click="btnmain()">skip</h5>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,53 @@
+<ion-view>
+<ion-nav-bar class="bar bar-dark" >
+  <!-- start top bar -->
+  <ion-nav-title class="title">
+    Time to Travel
+  </ion-nav-title>
+</ion-nav-bar>
+
+  <!-- start top hardding -->
+  <div class=" tabs-top tabs-background-assertive tabs-color-light ">
+    <div class="tabs">
+      <a class="tab-item active"  ng-click="btnhome()">
+        <i class="icon ion-ios-world-outline"></i>
+      </a>
+      <a class="tab-item"  ng-click="btnsearch()">
+        <i class="icon ion-ios-search-strong" ></i>
+        ค้นหา
+      </a>
+      <a class="tab-item"  ng-click="btncompose()">
+        <i class="icon ion-ios-compose-outline"></i>
+        เขียนบทความ
+      </a>
+      <a class="tab-item" ng-click="btnlist()">
+        <i class="icon ion-ios-albums-outline"></i>
+        รายการ
+      </a>
+      <a class="tab-item" ng-click="btnsetting()">
+        <i class="icon ion-ios-settings"></i>
+        บัญชี
+      </a>
+    </div>
+  </div>
+
+  <!-- end top bar -->
+  <ion-content style="padding-top: 12%" >
+
+    <!-- start top content 1 -->
+    <div class="list card"  ng-repeat="data in myDataArray" >
+      <div class="item item-avatar" ng-click="btnviewscompos(data)">
+        <h1 >{{data.title}}</h1>
+        <p >Time  {{data.time}}</p>
+      </div>
+
+      <div class="item item-body" ng-click="btnviewscompos(data)">
+        <img class="full-image" src= {{data.img}}>
+        <p>
+          {{data.subtitle}}
+        </p>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

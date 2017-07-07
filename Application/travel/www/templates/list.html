@@ -1,0 +1,24 @@
+<ion-view>
+
+  <ion-nav-bar>
+    <ion-nav-title>
+      My Contact
+    </ion-nav-title>
+  </ion-nav-bar>
+
+  <ion-content>
+
+    <div class="list">
+      <div class="item item-avatar-left item-icon-right" ng-click="btnDetail(data)" ng-repeat="data in myDataArray">
+
+        <img src="img/ionic.png">
+        <h2>{{data.name}}</h2>
+        <p>{{data.nick}}</p>
+        <i class="icon ion-chevron-right"></i>
+
+      </div>
+    </div>
+
+  </ion-content>
+
+</ion-view>

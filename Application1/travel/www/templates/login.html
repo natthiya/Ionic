@@ -1,0 +1,68 @@
+<ion-view >
+
+  <ion-content class="bglogin-regis">
+
+          <div class="row">
+            <div class="col col-100 center">
+              <img src="img/logo.png" alt="Mountain View"   style="width:100px;height:100px;margin-top: 20%">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-100 center">
+              <h1 style="color: #ffffff">ไปเที่ยวกันป่ะ</h1>
+              <p>กรุณากรอกข้อมูลของท่านให้ครบถ้าน</p>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col col-50 ">
+                <button class="button button-block button-positive " ng-click="btnLogin()">
+                  signin with     <i class="icon ion-social-facebook"></i>
+                </button>
+              </div>
+              <div class="col col-50 ">
+                <button class="button button-block button-assertive " ng-click="btnLogin()">
+                  signin with    <i class="icon ion-social-googleplus "></i>
+                </button>
+              </div>
+            </div>
+          <h5 class="center" style="color: #ffffff">or</h5>
+         <div class="list list-inset">
+            <label class="item item-input ">
+              <span class="input-label "><i class="icon ion-person"></i> Username</span>
+              <input type="text" placeholder="Naitosdesign" ng-model="from.txt_usr">
+            </label>
+
+            <label class="item item-input">
+              <span class="input-label ion-key" >  Password</span>
+              <input type="password" placeholder="ABC1234" ng-model="from.txt_pwd">
+            </label>
+          </div>
+
+          <div class="row">
+            <div class="col col-20"></div>
+            <div class="col col-60">
+              <button class="button button-block button-calm" ng-click="btnLogin()">
+                singin
+              </button>
+            </div>
+            <div class="col col-20"></div>
+          </div>
+
+
+
+
+        <div class="row">
+          <div class="col col-100">
+            <hr>
+            <button class="button button-full button-calm " ng-click="btnregister()">
+              สมัครสมาชิก
+            </button>
+            <h5 class="center" ng-click='btnmain()'>skip</h5>
+          </div>
+        </div>
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,48 @@
+<ion-view>
+  <!-- start top bar -->
+  <ion-nav-bar class="bar bar-dark" >
+    <!-- start top bar -->
+    <ion-nav-title class="title">
+      ค้นหา
+    </ion-nav-title>
+  </ion-nav-bar>
+
+  <!-- start top bar -->
+  <div class="tabs-striped tabs-top tabs-background-assertive tabs-color-light">
+      <div class="tabs">
+        <a class="tab-item "  ng-click="btnhome()">
+          <i class="icon ion-ios-world-outline"></i>
+          ทามไลน์
+        </a>
+        <a class="tab-item active"  >
+          <i class="icon ion-ios-search-strong" ></i>
+          ค้นหา
+        </a>
+        <a class="tab-item"  ng-click="btncompose()">
+          <i class="icon ion-ios-compose-outline"></i>
+          เขียนบทความ
+        </a>
+        <a class="tab-item" ng-click="btnlist()">
+          <i class="icon ion-ios-albums-outline"></i>
+          รายการ
+        </a>
+        <a class="tab-item" ng-click="btnsetting()">
+          <i class="icon ion-ios-settings"></i>
+          บัญชี
+        </a>
+      </div>
+    </div>
+
+  <!-- end top bar -->
+  <ion-content style="margin-top: 12%">
+    <!-- start top content 1 -->
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Search">
+      </label>
+    </div>
+
+
+  </ion-content>
+</ion-view>
